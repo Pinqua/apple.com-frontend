@@ -1,0 +1,18 @@
+.home__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home {
+    margin-top: 50px;
+}
+
+.home__items>div {
+    width: 50%;
+}
+
+@media screen and (max-width: 680px) {
+    .home__items>div {
+        width: 100%;
+    }
+}

@@ -1,0 +1,125 @@
+.nav__mobile {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: left;
+  transition: all 0.5s;
+  min-width: 380px;
+  color: #c0c0c0;
+  max-height: 48px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.nav_open {
+  max-height: 100%;
+  background-color: black;
+}
+
+.nav__mobile__icons {
+  display: flex;
+  padding: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__mobile .nav__icon {
+  object-fit: contain;
+  fill: #f5f5f7d3;
+  cursor: pointer;
+}
+
+.nav__mobile .nav__icon:hover {
+  fill: white;
+}
+
+.nav__mobile__items__item__search {
+  position: relative;
+  margin: 1.2rem;
+}
+
+.nav__mobile__items__item__search input {
+  background: #1d1d1f;
+  width: 100%;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  padding-left: 4rem;
+  border-radius: 8px;
+}
+
+.nav__mobile__items__item__search .search_icon {
+  position: absolute;
+  left: 1.2rem;
+  fill: #707072;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav__mobile__items__item__search {
+  color: #424245;
+}
+
+.nav__mobile__items__container {
+  margin: 1rem 3rem;
+}
+
+.nav__mobile__items__container__item {
+  border-bottom: 0.2px solid #424245;
+}
+
+.nav__mobile__items__container__item:last-child {
+  border-bottom: none;
+}
+
+.nav__mobile__items__container__item a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 0.8rem 0;
+  color: #c0c0c0;
+}
+
+.nav__mobile__items__container__item a:hover {
+  color: white;
+}
+
+.nav__mobile_line {
+  width: 100%;
+  height: 0.2px;
+  background-color: #424245;
+}
+
+.nav__mobile__icon__line1,
+.nav__mobile__icon__line2 {
+  height: 1px;
+  margin: 4px 0;
+  transition: 0.4s;
+  background-color: #f5f5f7dc;
+  width: 18px;
+}
+
+.invis {
+  width: 18px;
+  height: 1px;
+  margin: 4px 0;
+}
+
+.nav_open .nav__mobile__icon__line1 {
+  -webkit-transform: rotate(-45deg) translate(-3px, 4px);
+  transform: rotate(-45deg) translate(-3px, 4px);
+}
+
+.nav_open .nav__mobile__icon__line2 {
+  -webkit-transform: rotate(45deg) translate(-3px, -4px);
+  transform: rotate(45deg) translate(-3px, -4px);
+}

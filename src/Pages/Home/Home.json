@@ -1,0 +1,175 @@
+{
+    "full": [
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/heroes/ipad/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/heroes/ipad/hero_ipad__rh99l6c3yuyy_mediumtall_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/heroes/ipad/hero_ipad_order__752kv3kpn2qi_small_2x.jpg",
+            "title": "iPad",
+            "subHeading": "Lovable. Drawable. Magical",
+            "info": "Available starting 10.26",
+            "contentPos": "right",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Order now",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/heroes/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_largetall_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/heroes/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_small_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/heroes/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_mediumtall_2x.jpg",
+            "title": "iPhone 14 Pro",
+            "contentPos": "top",
+            "color": "white",
+            "subHeading": "Pro. Beyond.",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Buy",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_largetall_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_small_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpg",
+            "title": "iPhone 14",
+            "subHeading": "Big and bigger.",
+            "contentPos": "top",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Buy",
+                    "href": "#"
+                }
+            ]
+        }
+    ],
+    "half": [
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_small_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_medium_2x.jpg",
+            "logo": "https://www.apple.com/v/home/at/images/logos/apple-watch-ultra/promo_logo_apple_watch_ultra__ebzaahharnue_large_2x.png",
+            "subHeading": "Adventure awaits.",
+            "contentPos": "top",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Buy",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_small_2x.jpg",
+            "logo": "https://www.apple.com/v/home/at/images/logos/apple-watch-series-8/promo_logo_apple_watch_series_8__ee6riplsucuq_large_2x.png",
+            "subHeading": "A healthy leap ahead.",
+            "contentPos": "top",
+            "color": "white",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Buy",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/promos/ipad-pro/promo_ipadpro_order__upw04aj7i2qe_large_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/promos/ipad-pro/promo_ipadpro_order__upw04aj7i2qe_small_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/promos/ipad-pro/promo_ipadpro_order__upw04aj7i2qe_medium_2x.jpg",
+            "title": "iPad Pro",
+            "color": "white",
+            "subHeading": "Supercharged by ",
+            "subHeadingImg": "https://www.apple.com/v/home/at/images/logos/ipad-pro/hero_m2_chip__elhl46h8tbwy_largetall_2x.png",
+            "info": "Available starting 10.26",
+            "contentPos": "top",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Order now",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/promos/apple-tv-4k/promo_tv4k__d33vaocbii82_large_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/promos/apple-tv-4k/promo_tv4k__d33vaocbii82_small_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/promos/apple-tv-4k/promo_tv4k__d33vaocbii82_medium_2x.jpg",
+            "logo": "https://www.apple.com/v/home/at/images/logos/apple-tv-4k/hero_tv4k_logo__ght1s13b3e2q_large_2x.png",
+            "subHeading": "The Apple experience. Cinematic in every sense",
+            "info": "Available starting 11.4",
+            "contentPos": "top",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Order now",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_medium_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_small_2x.jpg",
+            "title": "AirPods Pro",
+            "subHeading": "Rebuilt from the sound up.",
+            "contentPos": "top",
+            "color": "white",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Buy",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "backgroundImg": "https://www.apple.com/v/home/at/images/promos/apple-card/tile__cauwwcyyn9hy_large_2x.jpg",
+            "backgroundImgSmall": "https://www.apple.com/v/home/at/images/promos/apple-card/tile__cauwwcyyn9hy_small_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/promos/apple-card/tile__cauwwcyyn9hy_medium_2x.jpg",
+            "logo": "https://www.apple.com/v/home/at/images/logos/apple-card/logo__dcojfwkzna2q_large_2x.png",
+            "subHeading": "Get up to 3% Daily Cash back with every purchase.",
+            "contentPos": "top",
+            "links": [
+                {
+                    "name": "Learn more",
+                    "href": "#"
+                },
+                {
+                    "name": "Apply now",
+                    "href": "#"
+                }
+            ]
+        }
+    ]
+}

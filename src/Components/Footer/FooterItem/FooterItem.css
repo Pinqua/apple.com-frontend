@@ -1,0 +1,29 @@
+.footer__item {
+    padding: 0rem;
+}
+
+.footer__item h4 {
+    margin-top: 0;
+    font-size: 0.76rem;
+    line-height: 1.33337;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.footer__item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer__item ul li {
+    margin-bottom: 0.6rem;
+}
+
+.footer__item a {
+    text-decoration: none;
+    color: #424245;
+}
+
+.footer__item a:hover {
+    text-decoration: underline;
+}
