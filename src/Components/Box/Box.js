@@ -1,23 +1,34 @@
 import React from "react";
 import "./Box.css";
 import { ReactComponent as ArrowRight } from "../../assets/angle-right-solid.svg";
+import { useMediaQuery } from "../../helper";
 
 const Box = ({ data, half }) => {
-  const boxStyle = {
-    background: `url(${data.backgroundImg}) no-repeat  center`,
+  const small=useMediaQuery("(max-width: 680px)")
+  const medium=useMediaQuery("(max-width: 1080px)")
+
+  
+  const boxStyle =()=>( {
+    backgroundImage:small && data?.backgroundImgSmall ?`url(${data.backgroundImgSmall})`: medium && data?.backgroundImgMedium?`url(${data.backgroundImgMedium})`  :`url(${data.backgroundImg})`,
     backgroundSize: "cover",
-    height: half ? "600px" : "700px",
+    backgroundPosition:"center",
+    backgroundRepeat:"no-repeat",
     color: `${data?.color ?? "inherit"}`,
     margin: half ? "0.4rem" : "inital",
-  };
+  });
 
   const addHalfToClass = (name) => {
     return `${name}${half ? "_half" : ""}`;
   };
 
+  const contentPosition=()=>(
+    small&&data?.contentPosSmall? data.contentPosSmall: data?.contentPos ?? "top"
+  )
+  
+
   return (
-    <div className={addHalfToClass("box")} style={boxStyle}>
-      <div className={`box__content box__${data?.contentPos ?? "top"}`}>
+    <div className={addHalfToClass("box")} style={boxStyle()}>
+      <div className={`box__content box__${contentPosition()}`}>
         {data?.title ? (
           <div className={addHalfToClass("box__content__title")}>
             {data.title}

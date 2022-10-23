@@ -8,6 +8,7 @@
             "subHeading": "Lovable. Drawable. Magical",
             "info": "Available starting 10.26",
             "contentPos": "right",
+            "contentPosSmall": "top",
             "links": [
                 {
                     "name": "Learn more",
@@ -79,6 +80,7 @@
         {
             "backgroundImg": "https://www.apple.com/v/home/at/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg",
             "backgroundImgSmall": "https://www.apple.com/v/home/at/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_small_2x.jpg",
+            "backgroundImgMedium": "https://www.apple.com/v/home/at/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_medium_2x.jpg",
             "logo": "https://www.apple.com/v/home/at/images/logos/apple-watch-series-8/promo_logo_apple_watch_series_8__ee6riplsucuq_large_2x.png",
             "subHeading": "A healthy leap ahead.",
             "contentPos": "top",

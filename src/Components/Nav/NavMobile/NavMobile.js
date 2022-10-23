@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./NavMobile.css";
 import navData from "../Nav.json";
 import { ReactComponent as AppleLogo } from "../../../assets/apple-icon.svg";
@@ -10,6 +10,16 @@ const NavMobile = () => {
     const handleClick = () => {
         setShow((val) => !val);
     };
+
+    useEffect(()=>{
+       if(show){
+        document.body.style.overflow="hidden"
+       }
+       else{
+        document.body.style.overflow="auto"
+       }
+    },[show])
+
     return (
         <div className={`nav__mobile ${show ? "nav_open" : ""}`}>
             <div className="nav__mobile__icons">

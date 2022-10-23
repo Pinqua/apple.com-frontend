@@ -43,4 +43,7 @@
     .footer__items {
         flex-wrap: wrap;
     }
+    .footer__items>div {
+       margin-bottom: 2rem;
+    }
 }

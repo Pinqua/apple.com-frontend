@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  min-width: 380px;
+  min-width: 320px;
 }
 
 code {
@@ -32,11 +32,5 @@ code {
 @media screen and (max-width: 780px) {
   html {
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  html {
-    font-size: 13.6px;
   }
 }

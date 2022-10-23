@@ -1,5 +1,6 @@
 .footer__item {
     padding: 0rem;
+    min-width: 90px;
 }
 
 .footer__item h4 {

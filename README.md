@@ -2,6 +2,8 @@
 
 Recreate/Clone the homepage of the apple.com websites with a responsive mobile-friendly layout as a part of frontend challenge (Totality Corp).
 
+**Content of website can be modified or updated through JSON file**
+
 ## Demo
 
 https://ac-ps.vercel.app
@@ -10,6 +12,19 @@ https://ac-ps.vercel.app
 
 React, JavaScript, HTML, CSS
 **(No 3rd party libraries used)**
+
+## Screenshots
+
+
+  <img src="Screenshot from 2022-10-23 17-29-54.png">
+  <img src="Screenshot from 2022-10-23 17-30-37.png">
+  <img src="Screenshot from 2022-10-23 17-31-15.png">
+  <img src="Screenshot from 2022-10-23 17-31-52.png">
+  <img src="Screenshot from 2022-10-23 17-32-05.png">
+  <img src="Screenshot from 2022-10-23 17-32-18.png">
+  <img src="Screenshot from 2022-10-23 17-32-33.png">
+
+
 
 ## Run Locally
 
