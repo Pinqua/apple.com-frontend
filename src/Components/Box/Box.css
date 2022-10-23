@@ -159,12 +159,14 @@
     .box__content .box__content__title_half {
         font-size: 2.2rem;
     }
-    .box__content .box__content__subHeading{
+
+    .box__content .box__content__subHeading {
         font-size: 1.6rem;
-   }
-   .box__content .box__content__subHeading_half {
-       font-size: 1.3rem;
-   }
+    }
+
+    .box__content .box__content__subHeading_half {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 780px) {
@@ -179,6 +181,7 @@
     .box__content .box__content__logo_half {
         width: 100px;
     }
+
     .box {
         height: 600px;
     }
@@ -186,19 +189,20 @@
     .box_half {
         height: 500px;
     }
-    .box__content .box__content__subHeading{
-         font-size: 1.6rem;
+
+    .box__content .box__content__subHeading {
+        font-size: 1.6rem;
     }
+
     .box__content .box__content__subHeading_half {
         font-size: 1.26rem;
     }
-    
 
-    .box__content  .box__content__title {
+    .box__content .box__content__title {
         font-size: 2.4rem;
     }
 
-    .box__content  .box__content__title_half {
+    .box__content .box__content__title_half {
         font-size: 2rem;
     }
 }

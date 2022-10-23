@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Bag",
+        "link": "/",
+        "icon": "https://www.apple.com/ac/globalnav/7/en_US/assets/ac-store/bag.svg"
+    },
+    {
+        "name": "Saved Item",
+        "link": "/",
+        "icon": "https://www.apple.com/ac/globalnav/7/en_US/assets/ac-store/savedbyyou.svg"
+    },
+    {
+        "name": "Orders",
+        "link": "/",
+        "icon": "https://www.apple.com/ac/globalnav/7/en_US/assets/ac-store/orders.svg"
+    },
+    {
+        "name": "Account",
+        "link": "/",
+        "icon": "https://www.apple.com/ac/globalnav/7/en_US/assets/ac-store/account.svg"
+    },
+    {
+        "name": "Sign in",
+        "link": "/",
+        "icon": "https://www.apple.com/ac/globalnav/7/en_US/assets/ac-store/signIn.svg"
+    }
+]

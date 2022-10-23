@@ -1,7 +1,6 @@
 .nav {
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: saturate(180%) blur(20px);
-    padding: 0.8rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -11,6 +10,7 @@
     font-size: 0.76rem;
     font-weight: 300;
     max-height: 44px;
+    min-height: 44px;
 }
 
 .nav__items {
@@ -19,6 +19,8 @@
     align-items: center;
     max-width: 980px;
     padding: 0 22px;
+    height: 44px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -39,4 +41,63 @@
 
 .nav .nav__icon:hover {
     fill: white;
+}
+
+.nav__search__root {
+    width: 100%;
+    height: 44px;
+    background-color: #1d1d1f;
+    padding: 0 22px;
+}
+
+.nav__search {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    transition: all 0.4s;
+    color: #424245;
+}
+
+.nav__search input {
+    background: #1d1d1f;
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.6rem 3.2rem;
+    border-radius: 8px;
+}
+
+.nav__search .nav_search_icon {
+    position: absolute;
+    left: 1.2rem;
+    fill: #707072;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav__search .nav_search_icon:hover {
+    fill: #707072;
+    cursor: default;
+}
+
+.nav__search .close_icon {
+    position: absolute;
+    right: 1.2rem;
+    fill: #707072;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav__items__item__dropdown {
+    position: relative;
+}
+
+@media screen and (max-width: 780px) {
+    .nav {
+        display: none;
+    }
 }
