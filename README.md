@@ -1,6 +1,6 @@
 # Apple.com Clone
 
-Recreated/Cloned the homepage of the apple.com website with a responsive mobile-friendly layout as a part of frontend challenge (Totality Corp).
+Recreated/Cloned the homepage of the apple.com website with a responsive mobile-friendly layout.
 
 **Content of website can be modified or updated through JSON file**
 
