@@ -47,13 +47,13 @@ React, JavaScript, HTML, CSS
 Clone the project
 
 ```bash
-  git clone https://github.com/Pinqua/totalitycorp-frontend-challenge.git
+  git clone https://github.com/Pinqua/apple.com-frontend.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd apple.com-frontend
 ```
 
 Install dependencies
@@ -75,6 +75,7 @@ Contributions are always welcome!
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 
 <br/>
 <br/>
